@@ -1,0 +1,78 @@
+
+.Home{
+    margin-top:3%;
+    height:600px;
+    position: relative;
+    
+}
+.HomeA{
+    border-radius:10px;
+    margin-left: -10px;
+}
+.HomeA:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.Home_1{
+    position:absolute;
+   display: flex;
+   color: #c8c7c7;
+}
+.Home_heading{
+    position: absolute;
+    color: #c8c7c7;
+    margin-top:5%;
+    animation-name:mymove;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes mymove {
+    from{left: 0%;}
+    to{left:23%;}
+}
+.Home_heading h1{
+    font-size:60px;
+}
+.Home_heading h2{
+    font-size:60px;
+    margin-left:45%;
+}
+.Home_text{
+    position:absolute;
+    width:23%;
+    margin-left:64%;
+    margin-top:20px;
+}
+.Home_text h2{
+    color: #b9a695;
+    margin-top:10px;
+}
+.Home_text p{
+    color: #c8c7c7;
+    margin-top: 16px;
+    font-weight:lighter
+}
+.HomeB{
+    position: absolute;
+    margin-top:24%;
+    margin-left:73.6%;
+    overflow:hidden;
+   
+}
+.HomeB img{
+    border-radius:10px;
+    margin-left:5%;
+    
+}
+.HomeB img:hover{
+    opacity:0.5;
+}
+.Ltext{
+    text-align: center;
+    color: #b9a695;
+    padding-top:44%;
+   
+}
+   
+
