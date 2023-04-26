@@ -2,6 +2,9 @@ import React from 'react'
 import './Home.css'
 import HomeA from '../images/HomeA.jpg'
 import HomeB from '../images/HomeB.jpg'
+import visiona from '../images/vision_a.jpg'
+import visionb from '../images/image_b.jpg'
+import visionc from '../images/image_c.jpg'
 
 
 function Home() {
@@ -32,16 +35,16 @@ function Home() {
     </div>
 
     <div className='vision'>
-          <p>OUR VISION</p>
-          <h1>"We are the best furniture company in <>UK</>,
-            We <>always prioritize our clients</> wishes."
-          </h1>
+         <div className='vision_a'><hr />    OUR VISION </div>
+          <h1>"We are the best furniture company <span className='brown'>in</span></h1>
+          <h1> UK, We <span className='brown'>always prioritize our clients</span> wishes."</h1>
+          
     </div>
 
-    <div className='vision_img'>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div className='vision_slider'>
+      <div className='vision_imga'><img src={visionb} height={220} width={330} alt="" /></div>
+      <div className='vision_imgb'><img src={visiona} height={220} width={330} alt="" srcset="" /></div>
+      <div className='vision_imgc'><img src={visionc} height={220} width={330} alt="" /></div>
     </div>
     </>
   )

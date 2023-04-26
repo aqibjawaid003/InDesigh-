@@ -23,7 +23,8 @@
     color: #c8c7c7;
     margin-top:5%;
     animation-name:mymove;
-    animation-duration: 3s;
+    animation-delay:2s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
@@ -74,5 +75,44 @@
     padding-top:44%;
    
 }
-   
+.vision{
+    margin-top:5%;
+    color: #c8c7c7; 
+    margin-left:5%;
+    margin-right:10%; 
+}
+.vision_a{
+    color: #b9a695;
+    display: flex;
+    font-size:12px;
+}
+.vision_a hr{
+    width:25px;
+    height:0;
+    margin-top:0.5%;
+    margin-right:1%;
+}
+.brown{
+color: #b9a695;
+}
+.vision h1{
+    margin-top:10px;
+}
 
+
+.vision_slider{
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+
+}
+.vision_slider img{
+    border-radius:10px;
+    margin-top:100px;
+}
+.vision_imga{
+    margin-left:-25px;
+}
+.vision_imgc{
+    margin-right:-25px;
+}
